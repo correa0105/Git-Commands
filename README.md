@@ -5,6 +5,9 @@ Aqui vou deixar alguns comandos utilizados no Bash para trabalhar com Git
 ## Comandos para ZSH
 
 ##### cd : Entrar no diretório especifco
+##### rm -rf : Para excluir um diretório
+##### mkdir : Para crair um diretório
+##### mv : Para mover um arquivo
 
 ## Configurar SSH
 
@@ -27,3 +30,15 @@ Host *.github.com
 ##### ssh-add --apple-use-keychain ~/.ssh/id_ed25519 : Para adicionar a chave ao agente
 
 ## Comandos Git
+
+##### git init : Inicia o repositório
+##### git add : "Prepara" o arquivo para comitar (Staged)
+##### git commit -m : Comita os arquivos que estavam no Staged
+##### git status : Verifica o status dos arquivos, untracked, tracked e staged
+##### git config : Configura o git, como o user.name, user.email, use a flag --list para ver as configurações
+##### git remote add origin : Adiciona um repositório remoto
+##### git remote -v : Visualiza os repositórios remotos configurados
+
+> Antes de dar push para o repositório remoto, no caso do GitHub, é necessário mudar o master do Git para main, entrando no .git e mudando o HEAD.
+
+##### git push -f origin main : Envia o commit para origin (repositório remoto) para a branch main
