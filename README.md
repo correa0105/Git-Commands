@@ -41,4 +41,8 @@ Host *.github.com
 
 > Antes de dar push para o repositório remoto, no caso do GitHub, é necessário mudar o master do Git para main, entrando no .git e mudando o HEAD.
 
-##### git push -f origin main : Envia o commit para origin (repositório remoto) para a branch main
+##### git push origin main : Envia o commit para origin (repositório remoto) para a branch main
+
+> Se der algum conflito, será necessário realizar um pull
+
+##### git pull origin main : Puxa o repositório da origin para a main
