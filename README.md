@@ -1,4 +1,4 @@
-# CursoGit
+# Comandos Git
 
 Aqui vou deixar alguns comandos utilizados no Bash para trabalhar com Git
 
